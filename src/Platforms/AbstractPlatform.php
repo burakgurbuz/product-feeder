@@ -7,11 +7,10 @@ use PtteM\ProductFeeder\Models\Product;
 
 abstract class AbstractPlatform implements IPlatform
 {
-
     public function __construct(
         private readonly IFormatter $formatter
-    )
-    {}
+    ) {
+    }
 
     /**
      * Generates a feed for the platform

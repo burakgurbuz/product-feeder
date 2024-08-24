@@ -13,7 +13,8 @@ class FeedManager
 
     public function __construct(
         private readonly IStorageDriver $storage
-    ) {}
+    ) {
+    }
 
     public function addPlatformFactory(IPlatformFactory $platformFactory): void
     {
