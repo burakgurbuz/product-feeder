@@ -1,0 +1,22 @@
+{
+  "name": "burakgurbuz/product-feeder",
+  "type": "product-feeder",
+  "require-dev": {
+    "phpunit/phpunit": "^9.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "PtteM\\ProductFeeder\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Burak Gürbüz",
+      "email": "eburakgurbuz@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "ext-dom": "*"
+  }
+}
